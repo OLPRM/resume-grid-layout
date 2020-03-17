@@ -1,0 +1,137 @@
+h1 {color:Indigo;
+text-decoration: underline;
+font-family: Times New Roman;
+font-size: 50px;
+word-spacing: 5px;
+
+}
+h2 {color:indigo;
+font-family: Times New Roman;
+font-size: 25px;
+word-spacing: 5px;
+font-style: italic;
+}
+
+body {
+  background-color: khaki;
+  text-align: center;
+  border-style: solid; 
+  border-color: purple;
+  border-width: 25px;
+  outline-style: solid;
+  outline-color: indigo;
+  outline-width: 25px;
+ 
+}
+p {
+	color:purple;
+	font-family: Times New Roman;
+	font-size: 22px;
+	word-spacing: 5px;
+	
+}
+img {
+	border-style: solid;
+	border-color: indigo;
+}
+
+ul {
+	list-style-type: square;
+	color:purple;
+	font-family: Times New Roman;
+	font-size: 22px;
+	word-spacing: 5px;
+	
+	
+}
+
+
+main {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows:  .5fr  .5fr  .25fr  .5fr  .5fr;
+                grid-template-areas: 
+                "photo contact"
+                "education honors"
+                "relevant-coursework relevant-coursework"
+                "course-projects course-projects"
+                "skills experience"
+            
+                ;
+				
+
+  
+            }
+			
+			
+			
+            #skills { grid-area: skills;}
+            #education { grid-area: education;}
+            #honors { grid-area: honors;}
+            #relevant-coursework { grid-area: relevant-coursework;}
+            #course-projects { grid-area: course-projects;}
+            #experience{ grid-area: experience;}
+            #contact { grid-area: contact;}
+            #photo { grid-area: photo;}
+
+            #education, #honors { 
+              
+              border: 3px solid #4B0082;
+              background-color: #FFFACD;
+              padding: 0 9px;
+             
+
+
+            }
+
+            #relevant-coursework {
+             
+              border: 3px solid #4B0082;
+              padding: 0 9px;
+	
+            }
+
+            #course-projects {
+              
+              border: 3px solid #4B0082;
+              background-color: #FFFACD;
+              padding: 0 9px;
+
+            }
+
+
+            #contact {
+           
+              border: 3px solid #4B0082;
+              padding: 0 9px;
+			  
+
+            }
+
+            #skills, #experience {
+              
+              border: 3px solid #4B0082;
+              padding: 0 9px;
+			 
+
+            }
+
+            #photo {
+               border: 3px solid #4B0082;
+              padding: 0 9px;
+			 
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
